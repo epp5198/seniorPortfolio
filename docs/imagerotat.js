@@ -6,7 +6,7 @@ var thisImage = 0;
 /*ebb: This javascript rotates images on reload from server*/
 
 function rotate() {
-    var images = new Array ('images/treewaterfall-sm.png', 'images/waterfallclose.png', 'images/waterfallonly.png', 'images/waterfalltreebw.png', 'images/waterrocks.png')
+    var images = new Array ('images/treewaterfall-sm.png', 'images/waterfallclose.png', 'images/waterfallonly.png', 'images/waterfalltreebw.png', 'images/partialeclipsesplitclouds.png', 'images/solarunion.png', 'images/totaleclipse.png', 'images/totaleclipseclose.png')
     
     /*ebb: This line randomizes the order of the images:*/
     var thisImage = Math.floor(Math.random() *(images.length));

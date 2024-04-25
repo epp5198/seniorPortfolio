@@ -139,3 +139,42 @@ div.desc {
   display: table;
   clear: both;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.responsive {
+    width: 33.33%; /* Each item takes up one-third of the container */
+    float: left; /* Float the items to achieve inline display */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10px; /* Add some padding around each item */
+}
+
+@media only screen and (max-width: 768px) {
+    .responsive {
+        width: 50%; /* On smaller screens, make each item take up half of the container */
+    }
+}
+
+.gallery {
+    border: 1px solid #ccc; /* Add a border around the gallery */
+    margin-bottom: 20px; /* Add some margin at the bottom of each gallery item */
+    overflow: hidden; /* Clear floats inside the gallery */
+    background-color: #f1f1f1; /* Add a background color to the gallery */
+}
+
+.gallery img {
+    width: 100%; /* Make the images fill the entire width of the gallery */
+    height: auto; /* Maintain the aspect ratio of the images */
+    display: block; /* Ensure the images behave like block-level elements */
+}
+
+.desc {
+    padding: 15px; /* Add padding around the description */
+    text-align: center; /* Center-align the description */
+}
+
